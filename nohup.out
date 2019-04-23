@@ -1,0 +1,144 @@
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AJbCBhaZhKXM0Wff-5oilXyeQW7q0KAZ_.v%2B2GOSQwv%2FoqjHdalXTZpPPUpp2KhaMC0QKFEFm2p3o","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:04:08 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"28","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AyeSZVThlZjngr93-5cMNbaCvGtf-bgnA.fPt13ZBnjyeHZ%2FILoxx6CB2E1PDRBaB7jjFnSK7Sblo"}
+Request Body:
+{"username":"jill","password":"admin"}
+User not found
+::1 - - [22/Apr/2019:15:04:16 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AyeSZVThlZjngr93-5cMNbaCvGtf-bgnA.fPt13ZBnjyeHZ%2FILoxx6CB2E1PDRBaB7jjFnSK7Sblo"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:04:16 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AyeSZVThlZjngr93-5cMNbaCvGtf-bgnA.fPt13ZBnjyeHZ%2FILoxx6CB2E1PDRBaB7jjFnSK7Sblo"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+::1 - - [22/Apr/2019:15:07:39 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AyeSZVThlZjngr93-5cMNbaCvGtf-bgnA.fPt13ZBnjyeHZ%2FILoxx6CB2E1PDRBaB7jjFnSK7Sblo"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:07:39 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AyeSZVThlZjngr93-5cMNbaCvGtf-bgnA.fPt13ZBnjyeHZ%2FILoxx6CB2E1PDRBaB7jjFnSK7Sblo","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:08:44 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A3_o--UBw9vl4o2Lwgq36kkzRHShMh0mW.oNTtQdiLM9mjAxWnAevEoMQiNFJr8gxa5nxIlyNeItM"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+DB pass: undefined
+::1 - - [22/Apr/2019:15:08:53 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A3_o--UBw9vl4o2Lwgq36kkzRHShMh0mW.oNTtQdiLM9mjAxWnAevEoMQiNFJr8gxa5nxIlyNeItM"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:08:53 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A3_o--UBw9vl4o2Lwgq36kkzRHShMh0mW.oNTtQdiLM9mjAxWnAevEoMQiNFJr8gxa5nxIlyNeItM","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:09:31 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A8CpzpPM7UpwSrgTadTW_EOcshv7dwI0H.V%2FnVZofjqigaeIY2IZiowBmva05go3xXJe%2F9i3Qrq8A"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+DB pass: { _id: 5cbdd89f6adc2359abc3da47,
+  id: '2',
+  username: 'jill',
+  password: 'birthday',
+  displayName: 'Jill',
+  emails: 'jill@example.com' }
+::1 - - [22/Apr/2019:15:09:40 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A8CpzpPM7UpwSrgTadTW_EOcshv7dwI0H.V%2FnVZofjqigaeIY2IZiowBmva05go3xXJe%2F9i3Qrq8A"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:09:40 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3A8CpzpPM7UpwSrgTadTW_EOcshv7dwI0H.V%2FnVZofjqigaeIY2IZiowBmva05go3xXJe%2F9i3Qrq8A","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:10:27 +0000] "GET /login HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AAsUTxyMSdB3uJhrZKe-Aj5mVhf8svsFV.TllDAfs1Yk3Zd7nfAsnCnk5jj5moIuJuSHHJkMF65Eg"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+DB pass: undefined
+::1 - - [22/Apr/2019:15:10:35 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AAsUTxyMSdB3uJhrZKe-Aj5mVhf8svsFV.TllDAfs1Yk3Zd7nfAsnCnk5jj5moIuJuSHHJkMF65Eg"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:10:35 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AAsUTxyMSdB3uJhrZKe-Aj5mVhf8svsFV.TllDAfs1Yk3Zd7nfAsnCnk5jj5moIuJuSHHJkMF65Eg","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:15:15 +0000] "GET /login HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AgSSWGz024DAZwQuTqTt8HSx5d8mRzf-o.WFY52R06pG45A2SXFWq2fc0o79pIoSIQLgGTWAQX9bo"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+SyntaxError: Unexpected token _ in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /Users/deepak/Downloads/Studies/express-passport/server.js:34:44
+    at model.Query.<anonymous> (/Users/deepak/Downloads/Studies/express-passport/node_modules/mongoose/lib/model.js:4093:16)
+    at /Users/deepak/Downloads/Studies/express-passport/node_modules/kareem/index.js:273:21
+    at /Users/deepak/Downloads/Studies/express-passport/node_modules/kareem/index.js:131:16
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","dnt":"1","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AgSSWGz024DAZwQuTqTt8HSx5d8mRzf-o.WFY52R06pG45A2SXFWq2fc0o79pIoSIQLgGTWAQX9bo","if-none-match":"W/\"10a-gRQiPcE1LDDlxhjuhGu3u3KJpgg\""}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:15:59 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AWBEV6tyo8TsCpvGw4KRdmqNP89cgVUTz.kvf%2FrcqDpfRl7o8esCfhhf0OjTDAmfzb5qiCLy1dGww"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+DB pass: { _id: 5cbdd89f6adc2359abc3da47,
+  id: '2',
+  username: 'jill',
+  password: 'birthday',
+  displayName: 'Jill',
+  emails: 'jill@example.com' }
+::1 - - [22/Apr/2019:15:16:07 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AWBEV6tyo8TsCpvGw4KRdmqNP89cgVUTz.kvf%2FrcqDpfRl7o8esCfhhf0OjTDAmfzb5qiCLy1dGww"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:16:07 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","content-length":"31","cache-control":"max-age=0","origin":"http://localhost:3000","upgrade-insecure-requests":"1","dnt":"1","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AWBEV6tyo8TsCpvGw4KRdmqNP89cgVUTz.kvf%2FrcqDpfRl7o8esCfhhf0OjTDAmfzb5qiCLy1dGww"}
+Request Body:
+{"username":"jill","password":"birthday"}
+Password not matching
+DB pass: { _id: 5cbdd89f6adc2359abc3da47,
+  id: '2',
+  username: 'jill',
+  password: 'birthday',
+  displayName: 'Jill',
+  emails: 'jill@example.com' }
+::1 - - [22/Apr/2019:15:16:26 +0000] "POST /login HTTP/1.1" 302 56 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+Request Header:
+{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","dnt":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","referer":"http://localhost:3000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","cookie":"connect.sid=s%3AWBEV6tyo8TsCpvGw4KRdmqNP89cgVUTz.kvf%2FrcqDpfRl7o8esCfhhf0OjTDAmfzb5qiCLy1dGww"}
+Request Body:
+{}
+::1 - - [22/Apr/2019:15:16:26 +0000] "GET /login HTTP/1.1" 200 266 "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
